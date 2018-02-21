@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>Survey</title>
+</head>
+
+<body>
+<form>
+	<table align="center">
+		<tr>
+			<td colspan="2">Employee's Name</td> 
+		</tr>
+		
+		<tr>
+			<td>
+			<input type="text" name="firstName" style="width:309px; height:30px;" ><br><p style="margin-top:-2px"><font size="2">First Name</font></p>
+			</td>
+			<td>
+			<input type="text" name="lastName" style="width:309px; height:30px;"><br><p style="margin-top:-2px"><font size="2">Last Name</font></p>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" style="padding-top:10">
+			Employee's Hire Date <br>
+			<input type="number" name="date" min="1" max="31" style="width:40px; height:30px;">  <input type="number" name="month" min="1" max="12" style="width:40px; height:30px;">  <input type="number" name="year" min="1900" max="2100" style="width:60px; height:30px;" > <img src="calendar.png" height="15px" width="15px"
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" style="padding-top:10">
+			Employee's Title <br>
+			<input type="text" name="emptitle" style="width:620px; height:30px;" >
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" style="padding-top:10">
+			Employee's Department <br>
+			<select name="empdept" value="Marketing" style="width:620px; height:30px;" >
+				<option value="Marketing">Marketing</option>
+				<option value="Account">Account</option>
+			</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" style="padding-top:10">Performance Evaluation</td>
+		</tr>
+		
+	</table>
+	
+	<table border='single' align="center" style="border: 1px solid lightgrey ;border-collapse: collapse;">
+		
+		<tr>
+			<td style="width:100px; height:20px;" >  </td> 
+			<td style="width:100px; height:20px; background-color:rgb(250, 250, 250)" align="center"><font size="2">Very Good</font></td>
+			<td style="width:100px; height:20px; background-color:rgb(240, 240, 240)" align="center"><font size="2">Good</font></td> 
+			<td style="width:100px; height:20px; background-color:rgb(250, 250, 250)" align="center"><font size="2">Fair</font></td> 
+			<td style="width:100px; height:20px; background-color:rgb(240, 240, 240)" align="center"><font size="2">Poor</font></td> 
+			<td style="width:100px; height:20px; background-color:rgb(250, 250, 250)" align="center"><font size="2">Very Poor</font></td>
+		</tr>
+		
+		<tr>
+			<td style="text-align:right; padding-right:5px" ><font size="2">Attendance</font></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="attendance" value="veryGood"></td>
+			<td style="background-color:rgb(240, 240, 240)" align="center"><input type="radio" name="attendance" value="good"></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="attendance" value="fair"></td> 
+			<td style="background-color:rgb(240, 240, 240)" align="center"><input type="radio" name="attendance" value="poor"></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="attendance" value="veryPoor"></td>
+		</tr>
+		
+		<tr>
+			<td style="text-align:right; padding-right:5px" ><font size="2">Quality of work</font></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="qlWork" value="veryGood"></td>
+			<td style="background-color:rgb(240, 240, 240)" align="center"><input type="radio" name="qlWork" value="good"></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="qlWork" value="fair"></td> 
+			<td style="background-color:rgb(240, 240, 240)" align="center"><input type="radio" name="qlWork" value="poor"></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="qlWork" value="veryPoor"></td>
+		</tr>
+		
+		<tr>
+			<td style="text-align:right; padding-right:5px" ><font size="2">Quantity of work</font></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="qnWork" value="veryGood"></td>
+			<td style="background-color:rgb(240, 240, 240)" align="center"><input type="radio" name="qnWork" value="good"></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="qnWork" value="fair"></td> 
+			<td style="background-color:rgb(240, 240, 240)" align="center"><input type="radio" name="qnWork" value="poor"></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="qnWork" value="veryPoor"></td>
+		</tr>
+		
+		<tr>
+			<td style="text-align:right; padding-right:5px" ><font size="2">Attitude</font></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="attitude" value="veryGood"></td>
+			<td style="background-color:rgb(240, 240, 240)" align="center"><input type="radio" name="attitude" value="good"></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="attitude" value="fair"></td> 
+			<td style="background-color:rgb(240, 240, 240)" align="center"><input type="radio" name="attitude" value="poor"></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="attitude" value="veryPoor"></td>
+		</tr>
+		
+		<tr>
+			<td style="text-align:right; padding-right:5px" ><font size="2">Dependability</font></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="dependebality" value="veryGood"></td>
+			<td style="background-color:rgb(240, 240, 240)" align="center"><input type="radio" name="dependebality" value="good"></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="dependebality" value="fair"></td> 
+			<td style="background-color:rgb(240, 240, 240)" align="center"><input type="radio" name="dependebality" value="poor"></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="dependebality" value="veryPoor"></td>
+		</tr>
+		
+		<tr>
+			<td style="text-align:right; padding-right:5px" ><font size="2">Work ethic</font></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="wEthic" value="veryGood"></td>
+			<td style="background-color:rgb(240, 240, 240)" align="center"><input type="radio" name="wEthic" value="good"></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="wEthic" value="fair"></td> 
+			<td style="background-color:rgb(240, 240, 240)" align="center"><input type="radio" name="wEthic" value="poor"></td> 
+			<td style="background-color:rgb(250, 250, 250)" align="center"><input type="radio" name="wEthic" value="veryPoor"></td>
+		</tr>
+	</table>
+	
+	<table align="center">
+		<tr>
+			<td colspan="2" style="padding-top:10; width:620px">Overall, I would rank this employee's performance as:</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="radio" name="oPerf" value="veryGood"><font size="2"> Very good </font>
+				<input type="radio" name="oPerf" value="good"><font size="2"> Good </font>
+				<input type="radio" name="oPerf" value="fair"><font size="2"> Fair </font>
+				<input type="radio" name="oPerf" value="poor"><font size="2"> Poor </font>
+				<input type="radio" name="oPerf" value="veryPoor"><font size="2"> Very poor </font>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" style="padding-top:10; width:620px">Please go into more detail on why you chose this ranking.</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<textarea rows="7" cols="86" name="comment" form="usrform"></textarea>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" style="padding-top:10px">Supervisor's Name</td> 
+		</tr>
+		
+		<tr>
+			<td>
+			<input type="text" name="supFirstName" style="width:309px; height:30px;" ><br><p style="margin-top:-2px"><font size="2">First Name</font></p>
+			</td>
+			<td>
+			<input type="text" name="supLastName" style="width:309px; height:30px;"><br><p style="margin-top:-2px"><font size="2">Last Name</font></p>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				
+			</td>
+			
+		<tr>
+	</table>
+</form>
+<body>
+
+</html>
